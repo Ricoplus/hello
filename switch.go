@@ -25,10 +25,10 @@ func main() {
 	//t:=time.Now()
 	a := 12
 	switch {
-	case a < 13:
-		fmt.Println(a, "a < 13")
 	case a < 15:
 		fmt.Println(a, "a < 15")
+	case a < 13:
+		fmt.Println(a, "a < 13")
 	default:
 		fmt.Println("it's after noon")
 	}
